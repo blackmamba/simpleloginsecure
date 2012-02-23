@@ -1,38 +1,10 @@
 <?php
 
-/*
- * THIS CONTROLLER IS BAD FORM!!!
- * IT IS ONLY USED TO SHOW HOW THE
- * SIMPLELOGIN LIBRARY WORKS!
- * 
- * It is assumed that you are autoloading 
- * database, session, and simplelogin
- * (if not, you will need to slightly 
- * alter the code)
- * 
- * Side Note For Novice Users:
- * BOF = Beginning Of
- * EOF = End of
- *  
- *   CREATE TABLE `users` (
- *     `user_id` int(10) unsigned NOT NULL auto_increment,
- *     `user_email` varchar(255) NOT NULL default '',
- *     `user_pass` varchar(60) NOT NULL default '',
- *     `user_date` datetime NOT NULL default '0000-00-00 00:00:00' COMMENT 'Creation date',
- *     `user_modified` datetime NOT NULL default '0000-00-00 00:00:00',
- *     `user_last_login` datetime NULL default NULL,
- *     PRIMARY KEY  (`user_id`),
- *     UNIQUE KEY `user_email` (`user_email`),
- *   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
- * 
- * @package   SimpleLoginSecure
- * @version   1.0.1
- * @author    Alex Dunae, Dialect <alex[at]dialect.ca>
- * @copyright Copyright (c) 2008, Alex Dunae
- * @license   http://www.gnu.org/licenses/gpl-3.0.txt
- * @link      http://dialect.ca/code/ci-simple-login-secure/
- */
- 
+/****
+*This example file comes from simplelogin, originally created by Anthony Graddy
+* http://codeigniter.com/wiki/SimpleLoginsecure
+* modified by Hitesh Ubharani hiteshubharani@gmail.com
+****/
 
 class Example extends  CI_Controller {
 
