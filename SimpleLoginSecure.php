@@ -31,6 +31,9 @@ define('PHPASS_HASH_PORTABLE', false);
  * @copyright Copyright (c) 2008, Alex Dunae
  * @license   http://www.gnu.org/licenses/gpl-3.0.txt
  * @link      http://dialect.ca/code/ci-simple-login-secure/
+ *
+ * modified by Hitesh Ubharani hiteshubharani@gmail.com
+ *
  */
 class SimpleLoginSecure
 {
