@@ -1,3 +1,22 @@
+SimpleLoginsecure, was originally created by Anthony Graddy, and extended by Alex Duane. When I started using Alex's version it wasn't compatible with the current version of CodeIgniter which is 2.1.0. So I have fixed those issues and have pushed it here so that other can reuse it.
+
+Project description in Alex's words:
+
+SimpleLogin-Secure for Code Igniter is a modified version of Anthony Graddy’s Simplelogin library.
+
+In Anthony’s words:
+
+Simplelogin is designed to give you a quick and simple login library that will get you up and running with an unobtrusive authorization system very quickly. It does not try to guess how you want to structure your app, it simply tries to give you a little help.
+
+There are three primary modifications to Anthony’s original code. Most importantly, SimpleLogin-Secure uses the phpass framework for secure, portable password hashing instead of straight md5 without a salt. Secondly, SimpleLogin-Secure uses an e-mail address instead of a user name as the login key. And finally, it adds user_date, user_modified and user_last_login date/time fields to the default install.
+
+For more information on why md5 hashing is not enough, see the excellent post about password schemes on the Matasano Security blog.
+
+I am hosting example.php, which is the controller file, SimpleLoginSecure.php which is the library file, and phpass-0.1 which is the php hashing library.
+
+Please use the following links for more information: http://codeigniter.com/wiki/SimpleLogin http://codeigniter.com/wiki/SimpleLoginsecure http://www.openwall.com/phpass/
+
+
 REATE TABLE `users` (
   `user_id` int(10) unsigned NOT NULL auto_increment,
     `user_email` varchar(255) NOT NULL default '',
